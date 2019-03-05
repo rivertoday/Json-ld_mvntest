@@ -1,0 +1,312 @@
+[ {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#主",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#形体"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏证候",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证候"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五行",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#认识方法"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#养心汤",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方剂" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#名称",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#夏",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#火" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#官窍",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#开窍于",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#官窍"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#形体",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心肾不交证",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#腑脏兼证" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心脉痹阻证",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心证候" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心血失养",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#气机" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心血虚",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#气机" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心血虚证",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心证候" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#心证候",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏证候"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味归经",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方剂",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方治关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方剂"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#治法"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方药关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#方剂"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#机证关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#气机"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证候"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#气机",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#认识方法"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#治法",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#温",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#火",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五行"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#甘",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#病位关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证候"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#脉",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#形体" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#腑脏兼证",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证候"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#舌",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#官窍" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#药味关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#甘"
+  }, {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辛"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#药性关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#温"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#血",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中医生理"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补法",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#治法"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补益药",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#中药"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补血",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补法"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补血养心",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补血" ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补血药",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#补益药"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#认识方法",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辨证论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证候",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辩证"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#证治关系",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辩证"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辛",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#性味"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辨证论治",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辩证",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#辨证论治"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#通应于",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五脏"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#五行"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#阴阳",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/jianghe/ontologies/2019/1/med_002#认识方法"
+  } ]
+} ]
